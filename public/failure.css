@@ -1,0 +1,13 @@
+html, body {
+    background-color: lavenderblush;
+    color: lightcoral;
+}
+
+.text-center {
+    margin: 10%;
+}
+
+p {
+    margin: 2%;
+    font-size: larger;
+}

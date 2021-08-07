@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Failed</title>
+    <link rel="icon" href="images/man.png" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="failure.css">
+</head>
+<body>
+    <div class="text-center">
+        <h1>Sign Up Failed, please try again 😔</h1>
+        <p>The sign up failed for some reason, please go back and try it again</p>
+        <button class="w-10 btn btn-lg btn-danger" onclick="Previous()">Try Again</button>
+        
+    </div>
+    <script>
+        function Previous() {
+            window.history.go(-1);
+        }
+    </script>
+</body>
+</html>
